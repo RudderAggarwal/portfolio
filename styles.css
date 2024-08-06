@@ -1,0 +1,173 @@
+body{
+    margin: 0;
+    font-family: "Rubic", sans-serif;
+}
+
+#base{
+    height: 100vh;
+    background-image: url(./bg.jpg);
+    background-size: 100% 100%;
+    display: grid;
+    grid-template-rows: 90% 10%;
+    justify-items: center;
+}
+
+#info{
+    color: white;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:90vh;
+}
+
+.margin-minus{
+    margin-top: -50px;
+    font-size:20px;
+}
+
+
+.icons{
+    display:flex;
+    flex-flow: row wrap;
+    gap:10px;
+    margin-top: 10px;
+}
+
+.icon{
+    width:30px;
+    height: 30px;
+}
+
+.temp-btn{
+    color: white;
+    border-style: solid;
+    border-width : 2px;
+    text-decoration : none;
+    padding : 7px 20px;
+    border-color : white;
+    border-radius: 20px;
+    font-size: 17px;
+}
+
+.inc-gap{
+    gap: 20px;
+}
+
+#drop{
+    height: 10vh;
+    
+}
+
+#about{
+    background-color: #141414;
+}
+
+#about-me{
+    padding-top: 20vh;
+    padding-bottom: 15vh;
+    width: 70%;
+    margin-left:15%;
+    display:grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+
+#me{
+    margin-top: -20px;
+    color:white;
+    padding-left:20px;
+}
+
+#me p{
+    color: #999999;
+}
+
+#qualifications{
+    margin-top:5vh;
+}
+
+.skill-grid{
+    padding-top:5vh;
+    padding-bottom:5vh;
+    display:grid;
+    grid-template-columns: 1fr 1fr 2.5fr 1fr;
+}
+
+.index{
+    grid-column-start: 2;
+    text-decoration: underline orange;
+}
+
+.content{
+    grid-column-start: 3;
+}
+
+.relative{
+    position: relative;
+}
+
+.sm-text{
+    font-size: 15px; 
+    font-style: italic; 
+    position:absolute; 
+    margin-top: -18px;
+}
+
+hr{
+    width: 60%;
+}
+
+.content-grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 20px;
+}
+
+.bar{
+    width:100%;
+    height: 20px;
+    background-color:#DEDCE5;
+    border-radius: 10px;
+    margin-bottom:20px;
+}
+
+.bar-fill{
+    height: 20px;
+    background-color: orange;
+    border-radius: 10px;
+}
+
+.titles{
+    margin-left:10px;
+}
+
+.five{width:50%;}
+.six{width:60%;}
+.seven{width:70%;}
+.eight{width:80%;}
+.nine{width:90%;}
+
+footer{
+    background-color: #141414;
+}
+
+#slide-up{
+    margin-top: -20px;
+    width: 50px;
+    height: 50px;
+    border-radius:50%;
+    background-color: #141414;
+    margin-bottom:20px;
+}
+
+.flex-center{
+    display:flex; 
+    justify-content: center;
+}
+
+.copyright{
+    color: #999999;
+    font-size: 15px;
+    padding-bottom: 15px;
+}
